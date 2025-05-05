@@ -1,0 +1,23 @@
+Package: EZanalysis
+Title: EZanalysis
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Sam", 
+           family = "Patton", 
+           email = "samharrispatton@gmail.com",
+           role = c("aut", "cre"))
+Description: Menu-based UI for multivariate analyses. Each function provides a menu-based 
+              interface for importing selecting, renaming, and manipulating variables in GLM and ANOVA.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    broom,
+    effectsize,
+    gt,
+    scales,
+    parameters,
+    stats,
+    utils
